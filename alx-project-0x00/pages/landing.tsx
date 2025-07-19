@@ -7,9 +7,10 @@ const Landing: React.FC = () => {
     <div className="p-4">
       <h1 className="text-xl font-extralight mb-4">Landing Page</h1>
       <div className="mt-6 flex flex-col gap-4">
-  <Button title="Small Rounded-sm" style="rounded-sm text-sm" />
-  <Button title="Medium Rounded-md" style="rounded-md text-base" />
-  <Button title="Large Rounded-full" style="rounded-full text-lg px-6 py-3" />
+  <Button title="Small Rounded-sm" styles="rounded-sm text-sm" />
+  <Button title="Medium Rounded-md" styles="rounded-md text-base" />
+  <Button title="Large Rounded-full" styles="rounded-full text-lg px-6 py-3" />
+  <Button title="Extra Rounded-lg" styles="rounded-lg text-lg px-6 py-3" />
 </div>
       {/* Use Card Component */}
       <Card />

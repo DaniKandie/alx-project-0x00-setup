@@ -3,5 +3,5 @@ export interface PillProps {
 }
 export interface ButtonProps {
   title: string;
-  style: string; // Accepts Tailwind classes or custom styles
+  styles: string; // Accepts Tailwind classes or custom styles
 }
